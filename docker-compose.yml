@@ -7,7 +7,7 @@ services:
       - "4444:4444"
 
   chrome:
-    image: selenium/node-chromium:4.32.0
+    image: selenium/node-chrome:117.0-20250505
     shm_size: 4gb
     volumes:
       - /dev/shm:/dev/shm
