@@ -1,0 +1,24 @@
+
+> wdio-selenium-grid-bidi@1.0.0 test
+> wdio run ./wdio.conf.ts
+
+
+Execution of 1 workers started at 2025-05-13T09:12:30.911Z
+
+[0-0] RUNNING in chrome - file:///test/specs/test.e2e.ts
+[0-0] PASSED in chrome - file:///test/specs/test.e2e.ts
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 136.0.7103.59 linux #0-0] Running: chrome (v136.0.7103.59) on linux
+[chrome 136.0.7103.59 linux #0-0] Session ID: a277c38507885c568a5e08c1ffd39105
+[chrome 136.0.7103.59 linux #0-0]
+[chrome 136.0.7103.59 linux #0-0] » /test/specs/test.e2e.ts
+[chrome 136.0.7103.59 linux #0-0] My Login application
+[chrome 136.0.7103.59 linux #0-0]    ✓ should login with valid credentials
+[chrome 136.0.7103.59 linux #0-0]
+[chrome 136.0.7103.59 linux #0-0] 1 passing (4.6s)
+
+
+Spec Files:	 1 passed, 1 total (100% completed) in 00:00:05  
+
